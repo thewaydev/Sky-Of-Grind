@@ -1207,6 +1207,7 @@
 			dependencies: [
 				"26C62836B41D0095"
 				"06DE434A12522869"
+				"015C9C8F87ACF613"
 			]
 			description: ["Bend the silicon ingots into plates."]
 			id: "63452C5A3536E82A"
@@ -1432,6 +1433,22 @@
 			}]
 			x: 3.0d
 			y: 7.0d
+		}
+		{
+			dependencies: ["023F2CD0DEEFCC9F"]
+			id: "015C9C8F87ACF613"
+			rewards: [{
+				id: "4331827B57DF03E5"
+				item: "gtmutils:doge_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E0BCA3309B310F3"
+				item: "gtceu:energetic_bronze_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 13.0d
 		}
 	]
 	subtitle: ["Medium Voltage"]

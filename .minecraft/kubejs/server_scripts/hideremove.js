@@ -241,4 +241,5 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'gtceu:shaped/uiv_machine_hull'})
     event.remove({ id: 'gtceu:shaped/uxv_machine_hull'})
     event.remove({ id: 'gtceu:shaped/opv_machine_hull'})
+    event.remove({ output: 'gtceu:transistor'})
   })
